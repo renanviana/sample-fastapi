@@ -1,0 +1,13 @@
+version: "3.6"
+
+services:
+  app:
+    build: .
+    entrypoint: /bin/bash
+    stdin_open: true # docker run -i
+    tty: true        # docker run -t
+    volumes:
+      - ./src:/src
+      - ./start.sh:/start.sh
+    ports:
+      - 8000:8000
