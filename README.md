@@ -1,6 +1,6 @@
 # sample-fastapi
 
-Sample repository for creating API with FastAPI framework in Python.
+Sample project for creating API with FastAPI framework in Python.
 
 ## Prerequisites
 
