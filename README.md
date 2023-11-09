@@ -13,11 +13,12 @@ Sample project for creating API with FastAPI framework in Python.
 
 After cloning the repository, open a terminal at the root of the repository.
 
-Run the command:
+Run this command (note: this container will be deleted after closed the terminal)
 
 ```bash
 docker compose run --rm --service-ports app
 ```
+
 A Linux terminal will open, in this terminal, enter in source code folder
 
 ```bash
