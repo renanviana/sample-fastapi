@@ -18,20 +18,7 @@ Run the command:
 ```bash
 docker compose run --rm --service-ports app
 ```
-A Linux terminal will open, in this terminal, run the command:
-
-```bash
-./start.sh
-```
-Ready! The server has already been configured, you can now access the API in a browser via the URL:
-
-```
-http://localhost:8000
-```
-
-If you have any difficulty using the "start.sh" shell, you can execute the commands below:
-
-Enter in source code folder
+A Linux terminal will open, in this terminal, enter in source code folder
 
 ```bash
 cd /src
@@ -65,6 +52,12 @@ Start the server
 
 ```bash
 uvicorn app:app --host 0.0.0.0 --port 8000 --reload
+```
+
+Ready! The server has already been configured, you can now access the API in a browser via the URL:
+
+```
+http://localhost:8000
 ```
 
 ## Contributing
