@@ -26,12 +26,6 @@ A Linux terminal will open, in this terminal, run the command:
 Ready! The server has already been configured, you can now access the API in a browser via the URL:
 
 ```
-http://0.0.0.0:8000
-```
-
-or
-
-```
 http://localhost:8000
 ```
 
