@@ -29,6 +29,44 @@ Ready! The server has already been configured, you can now access the API in a b
 http://localhost:8000
 ```
 
+If you have any difficulty using the "start.sh" shell, you can execute the commands below:
+
+Enter in source code folder
+
+```bash
+cd /src
+```
+
+Create virtual environment
+
+```bash
+python -m venv ./venv
+```
+
+Active venv
+
+```bash
+source venv/bin/activate
+```
+
+Install dependencies
+
+```bash
+pip install fastapi uvicorn
+```
+
+Create dependencies file
+
+```bash
+pip freeze > requirements.txt
+```
+
+Start the server
+
+```bash
+uvicorn app:app --host 0.0.0.0 --port 8000 --reload
+```
+
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first
