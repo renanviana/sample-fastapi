@@ -61,11 +61,6 @@ Ready! The server has already been configured, you can now access the API in a b
 http://localhost:8000
 ```
 
-## Contributing
-
-Pull requests are welcome. For major changes, please open an issue first
-to discuss what you would like to change.
-
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
